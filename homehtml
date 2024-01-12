@@ -1,0 +1,80 @@
+Home.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSPITAL APPOINTMENT SYSTEM / HOME</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/Home.css' %}">
+</head>
+<body>
+    <H1> DOCTOR APPOINTMENT APPLICATION </H1>
+    <div class="header">
+            <nav>
+                <ul>
+                    <li><a class="active"  href="">Home</a></li>
+                    <li><a href="{% url 'aboutus' %}">Aboutus</a></li>
+                    <li><a href="{% url 'services' %}">Services</a> </li>
+                    <li><a href="{% url 'contactus' %}">Contactus</a> </li>
+                    <li><a href="{% url 'feedback' %}">Feedback</a> </li>
+                    <li><a href="{% url 'logout' %}">Logout</a> </li>
+                    
+                </ul>
+            </nav>
+    </div>
+    <div class="content">
+            <div class="innercontent">
+                <a href="{% url 'doctor_info' %}">
+                <div class="container">
+                    DOCTOR
+                </div>
+                </a>
+                <a href="{% url 'patient' %}">
+                <div class="container">
+                PATIENT
+                </div>
+                </a>
+                <a href="{% url 'appointment' %}">
+                    <div class="container">
+                    APPOINTMENT
+                    </div>
+                </a>
+            </div>
+</div>
+    <div class="des">
+        <div class="innerdes">
+            <div class="text">
+                <h2>"Be Safe, Every Step, Every Day – Your Well-being Matters."</h2>
+            <p>
+                Our Doctor Appointment Application places security at the forefront of your healthcare journey. Utilizing cutting-edge encryption and stringent access controls, we ensure the utmost confidentiality of your personal health records. Your privacy is our priority, and our commitment to maintaining a secure platform reflects our dedication to safeguarding your sensitive information.
+            </p>
+            <p>
+                Experience a healthcare platform designed for you. Our user-friendly Doctor Appointment Application not only ensures security but also prioritizes your health. Seamlessly schedule appointments, receive timely reminders, and benefit from priority scheduling for urgent cases. Your well-being is our focus, making healthcare management convenient, efficient, and tailored to your individual needs.
+            </p>
+            <p>
+                Take care by prioritizing your well-being daily. Get ample rest, nourish your body with wholesome foods, and stay hydrated. Regular physical activity contributes to both physical and mental health. Ensure you allocate time for activities that bring joy and relaxation. Lastly, maintain open communication with healthcare professionals for comprehensive care and support.
+            </p>
+        </div>
+        </div>
+
+
+        <div class="content1">
+            
+            <div class="innercontent1">
+                <a href="{% url 'priscription' %}">
+                    <div class="container1">
+                    PRISCRIPTION
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+<footer>
+    <div class="footer">
+        <H6>Copyright © 2023 |  DOCTOR APPOINTMENT APPLICATION | All rights reserved. </H6> 
+    </div>
+</footer>
+</body>
+</html>
+
