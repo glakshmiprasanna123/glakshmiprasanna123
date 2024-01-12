@@ -1,0 +1,132 @@
+Body h1{
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+.header{
+    margin-top: -40Px;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+}
+.content{
+    margin: 0px;
+    padding: 0px;
+    height: 680px;
+    background-image: url(Hospital.jpg);
+    background-position: center;
+    opacity: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: #434343;
+    margin: 0px;
+    width: 100%;
+    color: #fff;
+}
+    color: #ffffff;
+}
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: #c7c7c7;
+    font-size: 20px;
+}
+.header  ul li a.active,
+.header  ul li a:hover{
+    padding: 5px;
+	background: rgba(0, 229, 255, 0.574);
+    color: #fff;
+	border-radius: 2px;
+    font-size: 20px;
+    transition: ease-out 0.5s;
+}
+.innercontent{
+    height: 50px;
+    display: flex;
+}
+.innercontent a{
+    text-decoration: none;
+}
+.innercontent a:hover{
+    text-decoration: none;
+    font-size: 25px;
+}
+.container {
+    background-color:rgb(0, 183, 255);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: rgb(48, 48, 48);
+    font-weight: 700;
+}
+.container:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    background-color: #0661f2;
+    transition: 0.5s;
+}
+.des{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.innerdes{
+    width: 1300px;
+    height: 400px;
+    padding: 100px;
+    padding-top: 50px;
+}
+.innerdes p{
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.innercontent1{
+    height: 50px;
+    display: flex;
+}
+.innercontent1 a{
+    text-decoration: none;
+}
+.innercontent1 a:hover{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.container1: hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    background-color: #0661f2;
+    transition: 0.5s;
+}
+footer {
+    text-align: center;
+    margin-bottom: -50px;
+    padding: 0px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+.footer p{
+    padding-top: 20px;
+    padding-bottom: -10px;
+}
+
+ 
+
+
+
+
